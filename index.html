@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Landing Page</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <div>
@@ -13,7 +14,10 @@
       <div id="headerLoad">
         <h1>LOGO</h1>
         <h1>Albert Fundora</h1>
-        <a href="mailto: fundora.a@gmail.com"><h4>Fundora.a@gmail.com</a></h4>
+        <button onclick="revealMessage()">MY E-MAIL</button>
+        <h4 id="hiddenMessage" style="display: none"><a href="mailto: fundora.a@gmail.com">
+          <h4>Fundora.a@gmail.com
+        </a></h4></h4>
       </div>
     </header>
   </div>
