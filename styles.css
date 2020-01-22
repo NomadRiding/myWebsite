@@ -1,0 +1,19 @@
+#boxes {
+  display: flex;
+}
+#redBox {
+  justify-content: flex-start;
+  border: 1px solid red;
+  width: 30%;
+}
+
+#redBox h1 {
+  padding: 10;
+  margin: 10;
+}
+
+#blueBox {
+  justify-content: flex-end;
+  border: 1px solid blue;
+  width: 30%;
+}
