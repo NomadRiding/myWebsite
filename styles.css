@@ -1,6 +1,7 @@
 #boxes {
   display: flex;
 }
+
 #redBox {
   justify-content: flex-start;
   border: 1px solid red;
@@ -16,4 +17,27 @@
   justify-content: flex-end;
   border: 1px solid blue;
   width: 30%;
+}
+
+#headerLoad {
+  display: flex;
+  border: 1px solid green;
+}
+
+#initialLogo {
+  width: 8%;
+  color: rgb(21, 39, 232);
+  text-shadow: 2px 2px 2px rgb(160, 160, 160);
+}
+
+#myName {
+  justify-content: left;
+  width: 30%;
+  border: 1px solid yellow;
+}
+
+#emailMe {
+  justify-content: flex-end;
+  width: 10%;
+  border: 1px solid pink;
 }
