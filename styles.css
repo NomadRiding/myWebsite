@@ -6,8 +6,17 @@ body {
 
 header {
   background-color: blue;
+  display: block;
   width: 100%;
   height: 80px;
+}
+
+#navBarContainer {
+  width: 90%;
+  height: 70px;
+  background-color: rgb(72, 72, 254);
+  border: 1px solid green;
+  margin: 10px;
 }
 
 #logoContainer {
@@ -17,6 +26,24 @@ header {
   border: 1px solid white;
   float: left;
 }
+
+#navBarMenu {
+  float: right;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+#horizontalList {
+  display: table;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+
+#horizontalList li {
+  display: inline;
+  padding: 15px;
+}
+
 
 /*
 
