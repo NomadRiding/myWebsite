@@ -36,13 +36,16 @@ header {
   width: 10%;
   border: 1px solid white;
   float: left;
+  background: #303036;
 }
+
 
 #logoContainer h1 {
   color: gold;
   height: 100%;
   display: table-cell;
   vertical-align: middle;
+  padding-left: 10px;
 }
 
 #navBarMenu {
@@ -73,15 +76,21 @@ header {
 
 
 #mainContent {
-  width: 75%;
-  height: 50%;
-  margin: 10%;
+  width: 85%;
+  height: 40em;
+  margin: 2%;
+  margin-left: 9%;
+  position: relative;
+  border: 1px solid black;
+  background-image: url('./pictures/IMG_2526.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* **** Footer Section ***** */
 
 
-#footer {
+.footer {
   background: #303036;
   color: #d3d3d3;
   height: 120px;
